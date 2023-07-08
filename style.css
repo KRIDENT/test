@@ -8,7 +8,7 @@
     top: 0;
     position: sticky;
     left: 0;
-    z-index: 1000;
+    z-index: 0;
 }
 /* ::-webkit-scrollbar-track {
     background: red;
@@ -30,7 +30,7 @@
     color: #3b71ca;
 }
 #home {
-    margin-top: 100px;
+    margin-top: 500px;
 }
 #product {
     margin-top: 20px;

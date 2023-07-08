@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#header {
+    top: 0;
+    position: sticky;
+    left: 0;
+    z-index: 1000;
+}
+/* ::-webkit-scrollbar-track {
+    background: red;
+}
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: blue;
+} */
+#header .navbar .navbar-brand {
+    margin: 10px;
+    font-size: 25px;
+}
+#header .navbar .collapse .navbar-nav .nav-link {
+    padding: 20px;
+}
+#header .navbar .collapse .navbar-nav .nav-link:hover {
+    color: #3b71ca;
+}
+#product {
+    margin-top: 20px;
+}
+#product .product-head {
+    margin: 10px;
+}
+#product .product-head h2 {
+    font-size: 50px;
+}
+#product .product-box {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+#product .product-box .image-container img {
+    max-width: 100%;
+    object-fit: contain;
+}
+#product .product-box:hover .image-container img {
+    filter: grayscale(0);
+}
+#product .product-box .product-details-head h2 {
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#product .product-box .details p {
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#product .product-box .de-note {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#product .product-box .de-note .price .old {
+    color: red;
+}
+#product .product-box .de-note .price .new {
+    color: green;
+}
+#services {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: linear-gradient(to right,#d8e2dc, #ffe5d9);
+    margin-top: 20px;
+}
+#services .service-box {
+    padding: 100px;
+}
+#services .service-box h2 {
+    padding: 10px;
+    color: #000;
+}
+#services .service-box p {
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+}
+@media (max-width: 990px) {
+    #header .navbar .collapse .navbar-nav .nav-link {
+        padding: 10px;
+    }
+}
+@media (max-width: 588px) {
+    #services .service-box {
+        padding: 80px;
+    }
+}
+@media (max-width: 478px) {
+    #services .service-box {
+        padding: 50px;
+    }
+}
+@media (max-width: 372px) {
+    #services .service-box {
+        padding: 30px;
+    }
+}

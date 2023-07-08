@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 #header {
-    top: 10%;
+    top: 50%;
     position: sticky;
     left: 0;
     z-index: 1000;
